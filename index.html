@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV Ketevan Gogia</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <header>
         <h1>
             Ketevan Gogia
         </h1>
         <h4>Front-end Developer</h4>
-        <img src="https://i.ibb.co/42DppPf/272072705-610151446722376-1958055297033363096-n-2.jpg" alt="My Photo">
-        <div>
+        <img src="https://i.ibb.co/42DppPf/272072705-610151446722376-1958055297033363096-n-2.jpg" alt="My Photo" class="Myimg">
+        <hr>
+        </header>
+       <!-- <div class="boxes">
             <b>Personal Information:</b>
             <div>Tbilisi,Georgia</div>
             <div>qetigogia50@gmail.com</div>
             <div>+995 567 45 34 65</div>
-        </div>
-        <div>
+        </div> -->
+       <!-- <div class="boxes">
             <b>Work Experience:</b>
             <div>RS School, Epam Georgia, Web Development(HTML, CSS, JS)</div>
-        </div>
-        <div>
+        </div> -->
+        <div class="flex-container1">
+            <form style="font-family:URW Chancery L, cursive; margin-top: 40px;">
+                <p>About Me:</p>
+                <p>I am junior Front-end developer from Tbilisi, Georgia. Currently, I'm student at RS school and improving my programming skills.</p>
+                <p>Contact Me:</p>
+                <button type="button" class="button" onclick="window.location.href = 'http://www.linkedin.com/in/ქეთევან-გოგია-a759ba216'">LinkdIn</button>
+                <button type="button" class="button" onclick="window.location.href='http://mail.google.com'">E-mail</button>
+                <button type="button" class="button" onclick="window.location.href='https://github.com/okrecommendation9394'">GitHub</button>
+            </form>
+        <div class="boxes">
             <b>Skills:</b>
-            <div>Programming Languages:</div>
+            <div class="item">Programming Languages:</div>
             <ul>
                 <li>Java <i>(MOOC Java Programming I course by Helsinki University)</i></li>
                 <li>JavaScript</li>
@@ -29,21 +44,32 @@
                 <li>CSS</li>
             </ul>
         </div>
-        <div>
-            <div>Education:</div>
+        <div class="boxes">
+            <div><b>Education:</b></div>
             <div>Tbilisi State University Bachelor's Degree(2017-2021)</div>
         </div>
-        <div>
+        <div class="boxes">
             <div><b>Languages:</b></div>
             <ul>
                 <li>English(C1)</li>
                 <li>Georgian</li>
             </ul>
         </div>
-        <div>
+        <div class="boxes">
             <b>Projects:</b>
+            <div>Play My Breakout Game:</div>
             <div><a href="https://codehs.com/share/id/bricks-YPc9ZF/run" target="_blank">Breakout Game Link</a></div>
+            <div>Play My Paddle Game:</div>
             <div><a href="https://codehs.com/share/id/write-the-code-yIxORD/run" target="_blank">Paddle Game Link</a></div>
+        </div>
+        <footer class="stylefooter">
+                <a href="https://github.com/okrecommendation9394">
+                    <p>Ketevan Gogia</p>
+                </a>
+                <p>My GitHub Name: okrecommendation9394</p>
+                <p>24/04/2022</p>
+                <a href="https://rs.school/js-en/"><img src="https://i.ibb.co/PxdWjww/download1.png" alt="download1" class="stylelogo"></a>
+        </footer>
         </div>
     </body>
 </html>
